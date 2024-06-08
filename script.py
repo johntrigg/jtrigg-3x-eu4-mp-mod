@@ -614,6 +614,7 @@ search_terms = [
     "inflation_reduction_local",
     "local_state_maintenance_modifier",
     "local_build_cost",
+    "build_cost",
     "local_build_time",
     "local_great_project_upgrade_cost",
     "local_great_project_upgrade_time",
@@ -662,7 +663,7 @@ import os
 import shutil
 # List of directories to modify
 modifyTheseFiles = [
-    r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\advisortypes',
+    # r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\advisortypes',
     r'c:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\ages',
     r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\centers_of_trade',
     r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\church_aspects',
