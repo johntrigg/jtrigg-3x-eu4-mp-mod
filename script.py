@@ -706,6 +706,9 @@ modifyTheseFiles = [
     r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\subject_type_upgrades',
     r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\triggered_modifiers',
     r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\trading_policies'
+    r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\tradegoods',
+    r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\trading_policies',
+    r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\trading_policies'
 ]
 
 
