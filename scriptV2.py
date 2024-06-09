@@ -664,7 +664,7 @@ search_terms = [
 
 modifyTheseFiles = [
     # r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\advisortypes',
-    r'c:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\ages',
+    r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\ages',
     r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\centers_of_trade',
     r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\church_aspects',
     r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\countries',
@@ -691,7 +691,7 @@ modifyTheseFiles = [
     r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\institutions',
     r'c:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\institutions',
     r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\ideas',
-    r'c:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\missions',
+    r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\missions',
     r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\naval_doctrines',
     r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\parliament_issues',
     r'C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\personal_deities',
