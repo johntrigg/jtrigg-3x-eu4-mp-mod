@@ -2,6 +2,7 @@ import os
 import shutil
 
 # List of strings to search for
+# List of strings to search for
 search_terms = [
     "land_morale",
     "infantry_power",
@@ -662,10 +663,7 @@ search_terms = [
     "local_center_of_trade_upgrade_cost"
 ]
 
-import os
-import shutil
-
-
+# List of directories to modify
 modifyTheseFiles = [
     r'C:\\Program Files (x86)\\Steam\\steamapps\\common\\Europa Universalis IV\\common\\ages',
     r'C:\\Program Files (x86)\\Steam\\steamapps\\common\\Europa Universalis IV\\common\\centers_of_trade',
@@ -708,11 +706,6 @@ modifyTheseFiles = [
     r'C:\\Program Files (x86)\\Steam\\steamapps\\common\\Europa Universalis IV\\common\\factions',
 ]
 
-# We don't do anything with this, but you should manually edit the patriarch authority values, and any others as you see fit.
-outlier = [
-    r'c:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\common\static_modifiers'
-]
-
 # Flag to determine if the original file should be modified
 modifyOriginal = True
 
@@ -726,13 +719,9 @@ for directory in modifyTheseFiles:
             if filename.endswith('.txt'):
                 file_path = os.path.join(directory, filename)
                 
-                try:
-                    # Read the content of the file
-                    with open(file_path, 'r') as file:
-                        content = file.readlines()
-                except UnicodeDecodeError:
-                    print(f"Skipping file due to UnicodeDecodeError: {file_path}")
-                    continue
+                # Read the content of the file
+                with open(file_path, 'r') as file:
+                    content = file.readlines()
 
                 # Modify the required lines
                 for i, line in enumerate(content):
